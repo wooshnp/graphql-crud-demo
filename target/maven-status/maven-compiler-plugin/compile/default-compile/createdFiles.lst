@@ -1,6 +1,0 @@
-com/lab/graphql/demo/entities/Country.class
-com/lab/graphql/demo/LabGraphqlCrudDemoApplication.class
-com/lab/graphql/demo/services/CountryService.class
-com/lab/graphql/demo/repository/CountryRepository.class
-com/lab/graphql/demo/entities/Continent.class
-com/lab/graphql/demo/entities/Languages.class
