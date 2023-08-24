@@ -13,8 +13,7 @@ public class Continent {
 
     @Id
     @GeneratedValue
-    private String id;
-    private String name;
+    private Long id;
     private String code;
-
+    private String name;
 }
