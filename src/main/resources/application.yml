@@ -1,0 +1,13 @@
+spring:
+  h2:
+    console:
+      enabled: true
+  datasource:
+    generate-unique-name: false
+    name: countries
+  graphql:
+    graphiql:
+      enabled: true
+logging:
+  level:
+    sql: debug
