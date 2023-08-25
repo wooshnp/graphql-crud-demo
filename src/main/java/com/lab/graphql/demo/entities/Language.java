@@ -14,9 +14,4 @@ public class Language {
     @JsonProperty("name")
     private String name;
 
-//    @ManyToOne
-//    @JoinColumn(name = "country_id")
-//    @JsonProperty("country")
-//    private Country country;
-
 }

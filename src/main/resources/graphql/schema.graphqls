@@ -1,11 +1,22 @@
 type Query {
     countries: [Country]
+    countryById(id: ID!): Country
+}
+
+type Mutation {
+    addCountry(country: CountryInput): Country
+}
+
+input CountryInput {
+    name: String!
+    currency: String
+    emoji: String
 }
 
 type Country {
     id: ID!
     name: String!
-    continents: [Continent]
+    continent: Continent
     languages: [Languages]
     currency: String
     emoji: String
