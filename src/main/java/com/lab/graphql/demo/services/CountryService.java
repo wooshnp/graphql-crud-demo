@@ -28,6 +28,10 @@ public class CountryService {
                        code
                        name
                      }
+                     languages {
+                        code
+                        name
+                     }
                      name
                      code
                      emoji
